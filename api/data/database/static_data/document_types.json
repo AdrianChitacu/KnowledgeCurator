@@ -1,0 +1,11 @@
+[
+    {"type": "Flat File"},
+    {"type": "JSON"},
+    {"type": "Word"},
+    {"type": "Powershell"},
+    {"type": "C#"},
+    {"type": "SQL"},
+    {"type": "XML"},
+    {"type": "HTML"},
+    {"type": "Text"}
+]

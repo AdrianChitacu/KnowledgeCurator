@@ -1,0 +1,15 @@
+<div class="card">
+    <h5 class="card-header"><%=data.title%></h5>
+    <div class="card-body">
+        <%
+        var resultData = data.data;
+        resultData = resultData.replace(/<\/?[^>]+(>|$)/g, "")
+        if(resultData.length > 155)
+        {           
+            resultData = resultData.substring(0, 155) + "...";
+        }
+         %>
+      <p class="card-text"><%=resultData%></p>
+      <a href="/result?id=<%=data._id%>" class="btn btn-primary">More details</a>
+    </div>
+</div>
